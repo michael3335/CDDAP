@@ -9,8 +9,13 @@ html, body {
 #body {
 	width: 100vw;
 	background-image: url("background.jpg");
-	background-size: cover;
+	background-size: contain;
 	background-position: center;
+	background-repeat: repeat-y;
+}
+
+#body a {
+	color: black;
 }
 
 #header {
@@ -73,7 +78,7 @@ footer {
 	display: none;
 }
 
-#text li {
+#text li, #text p {
 	font-family: forma-djr-display, sans-serif;
 	font-weight: 400;
 	font-style: normal;
@@ -89,6 +94,14 @@ footer {
 	font-size: 1.3rem;
 	margin-top: 20px;
 	letter-spacing: 0.5px;
+}
+
+#text h2 {
+	text-transform: uppercase;
+}
+
+#text h3 {
+	text-transform: capitalize;
 }
 
 #footerText {
