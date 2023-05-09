@@ -10,7 +10,7 @@ html, body {
 #body {
 	width: 100vw;
 	background-image: url("background.jpg");
-	background-size: contain;
+	background-size: auto;
 	background-position: center;
 }
 
@@ -148,6 +148,7 @@ footer {
 	
 	#body {
 		background-repeat: repeat-y;
+		background-size: contain;
 	}
 }
 
